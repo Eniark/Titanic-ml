@@ -10,7 +10,7 @@ Which would take the results of the model and show them to the user:
 2) ![image](https://user-images.githubusercontent.com/62321153/158414156-424fd1e5-9209-4827-ad79-1280f3478da2.png)
 
 **To use the app:**
-1) Check requirements.txt;
-2) Write 'flask run' in command line in the flask app directory;
+1) Run 'pip install -r requirements.txt';
+2) Type 'flask run' in command line in the flask app directory;
 3) Go to your localhost;
 

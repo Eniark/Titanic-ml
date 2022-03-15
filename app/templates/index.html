@@ -10,7 +10,7 @@
     <h1 id="title">Titanic Classification Model</h1>
     <form class="wrapper" method="POST" action="predict">
         <div class="item">
-            <label>Enter person's shipping class [1-3]</label>
+            <label>Enter person's shipping class [1-3: 1-best, 3-worst]</label>
             <input name="pclass" placeholder="class..." value="3"/>
         </div>
 
@@ -32,7 +32,7 @@
         </div>
 
         <div class="item">
-            <label>Parch</label>
+            <label>Parents/Children</label>
             <input name="parch" placeholder="parch..." value="1"/>
         </div>
 
@@ -44,9 +44,9 @@
         <div class="item">
             <label>Embarked</label>
             <select name="embarked">
-                <option value="S">S</option>
-                <option value="C">C</option>
-                <option value="Q">Q</option>
+                <option value="S">Southampton</option>
+                <option value="C">Cherbourg</option>
+                <option value="Q">Queenstown</option>
             </select>
         </div>
         <input class="btn" type="submit"/>

@@ -4,8 +4,8 @@ from joblib import load
 from sklearn.pipeline import Pipeline
 
 app = Flask(__name__)
-model = load('../../model.joblib')
-colTr = load('../../col_transformer.joblib')
+model = load('../model.joblib')
+colTr = load('../col_transformer.joblib')
 
 
 @app.route('/', methods=['GET'])

@@ -11,6 +11,6 @@ Which would take the results of the model and show them to the user:
 
 **To use the app:**
 1) Run 'pip install -r requirements.txt';
-2) Type 'flask run' in command line in the flask app directory;
+2) Type 'flask run' in command line in directory 'app/';
 3) Go to your localhost;
 

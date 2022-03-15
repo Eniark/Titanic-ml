@@ -6,8 +6,8 @@ Then I used some ensemble techniques - I used a VotingClassifier with top 3 best
 I implemented a Flask app:
 ![image](https://user-images.githubusercontent.com/62321153/158413080-a2ab141b-8b18-4444-b5cf-b21fb237ca89.png)
 Which would take the results of the model and show them to the user:
-1) ![image](https://user-images.githubusercontent.com/62321153/158413226-4bc3d64e-98c8-48ea-9916-2d976a4d2aeb.png)
-2) ![image](https://user-images.githubusercontent.com/62321153/158413315-de51a95b-2e6d-4141-aabf-41d68acdb466.png)
+1) ![image](https://user-images.githubusercontent.com/62321153/158414041-5eb3e332-e4a5-4385-a2fb-4d806006ac46.png)
+2) ![image](https://user-images.githubusercontent.com/62321153/158414156-424fd1e5-9209-4827-ad79-1280f3478da2.png)
 
 **To use the app:**
 1) Check requirements.txt;

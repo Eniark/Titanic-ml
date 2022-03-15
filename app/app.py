@@ -41,4 +41,4 @@ def do_pred(inp, model):
 
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run()

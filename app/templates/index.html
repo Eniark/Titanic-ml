@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titanic prediction model evaluation</title>
+    <link type="text/css" rel="stylesheet" href="static/css/index.css"/>
+
+</head>
+<body>
+    <h1 id="title">Titanic Classification Model</h1>
+    <form class="wrapper" method="POST" action="predict">
+        <div class="item">
+            <label>Enter person's shipping class [1-3]</label>
+            <input name="pclass" placeholder="class..." value="3"/>
+        </div>
+
+        <div class="item">
+            <label>Choose sex</label>
+            <select name="sex">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="item">
+            <label>Enter age</label>
+            <input name="age" placeholder="age..." value="27"/>
+        </div>
+
+        <div class="item">
+            <label>Number of siblings</label>
+            <input name="sibs" placeholder="siblings..." value="3"/>
+        </div>
+
+        <div class="item">
+            <label>Parch</label>
+            <input name="parch" placeholder="parch..." value="1"/>
+        </div>
+
+        <div class="item">
+            <label>Fare</label>
+            <input name="fare" placeholder="fare..." value="34"/>
+        </div>
+
+        <div class="item">
+            <label>Embarked</label>
+            <select name="embarked">
+                <option value="S">S</option>
+                <option value="C">C</option>
+                <option value="Q">Q</option>
+            </select>
+        </div>
+        <input class="btn" type="submit"/>
+    </form>
+</body>
+</html>

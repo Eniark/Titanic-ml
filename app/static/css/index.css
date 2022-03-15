@@ -1,0 +1,47 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(115, 199, 235)
+}
+
+#title {
+    margin: 5px 0 0 10px;
+}
+
+.wrapper {
+    height : 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.btn {
+    margin-top: 50px;
+    padding: 15px 0 15px 0;
+}
+
+input, select {
+    font-size: 20px;
+    width: 80%;
+    padding: 5px;
+}
